@@ -17,7 +17,7 @@ Find trains based on the journeyDate ( exclude cancelledTrains
 function searchTrains(source, destination, journeyDateStr){
 
     let journeyDate = new Date(journeyDateStr);            
-    let filteredTrains = [] ;
+    let filteredTrains = trains ;
     // implement logic
     return filteredTrains;
 }
